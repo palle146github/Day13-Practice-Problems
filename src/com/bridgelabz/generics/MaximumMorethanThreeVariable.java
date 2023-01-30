@@ -2,7 +2,7 @@ package com.bridgelabz.generics;
 
 import java.util.List;
 import java.util.Arrays;
-public abstract class MaximumMorethanThreeVariable<T> implements Comparable<T> {
+public abstract class MaximumMorethanThreeVariable<E extends Comparable<E>> {
 
 
     public static <E extends Comparable<E>> E testMaximum(List<E> list) {
